@@ -1,2 +1,2 @@
-# postemarocbot
+# PosteMarocBot
 Poste Maroc Telegram Bot
