@@ -7,7 +7,7 @@ except ImportError:
 from api import Tracker
 import database as db
 
-TOKEN = '5300707471:AAGBvm3Rh6pGunyfzdYw0Qiju6hvcEn7E9I'
+TOKEN = ''
 bot = telebot.TeleBot(TOKEN)
 
 

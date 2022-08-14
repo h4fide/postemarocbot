@@ -9,7 +9,6 @@ import datetime
 import database as db
 
 
-# telegram bot token
 TOKEN = 'TOKEN'
 bot = telebot.TeleBot(TOKEN)
 
@@ -32,13 +31,12 @@ def patrol(repeating: int = 3):
                 print("Send Notification successfully")
                 
             elif checker.check(id_in_db, codebyid) == 'arrived':
-                    # c.execute(f"DELETE FROM data WHERE userid = {id_in_db} AND code = '{codebyid}'")
-                    # conn.commit()
+                    db.delete_by_code(id_in_db, codebyid)
                     print("Deleted")
 
             elif db.get_expirationdate(id_in_db, codebyid) <= db.get_creationdate(id_in_db, codebyid):
-                print ('Delete')
                 db.delete_by_code(id_in_db, codebyid)
+                print ('Deleted')
             elif checker.check(id_in_db, codebyid) == False:
                 print("Nothing New", str(datetime.datetime.now().strftime("%m/%d %H:%M")), codebyid)
 
