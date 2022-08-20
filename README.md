@@ -3,7 +3,9 @@
   <h1>Poste Maroc Telegram Bot</h1>
   A Telegram bot can help you to track your poste maroc delivery status  <a href="https://t.me/postemarocbot">@postemarocbot</a> to use.
 </div>
-<style>img{border: 5px;}</style> 
+<style>img {
+  border-radius: 50%;
+}</style> 
 </br>
 
 ## :arrow_down: Installation
