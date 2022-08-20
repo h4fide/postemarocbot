@@ -1,10 +1,5 @@
 <div align="center">
-<<<<<<< HEAD
-  <img src="https://raw.githubusercontent.com/h4fide/postemarocbot/main/src/icon.jpg" style="border-radius:20px;width:190;">
-=======
-
-  <img src="https://raw.githubusercontent.com/h4fide/postemarocbot/main/src/icon.jpg" width="190" style="width:190;border:5px solid #00FFFF">
->>>>>>> 6db032d794b4819310e0df939059397882755dfb
+  <img src="https://raw.githubusercontent.com/h4fide/postemarocbot/main/src/icon.jpg" width="190" border-radius="20px">
   <h1>Poste Maroc Telegram Bot</h1>
   A Telegram bot can help you to track your poste maroc delivery status  <a href="https://t.me/postemarocbot">@postemarocbot</a> to use.
 </div>
