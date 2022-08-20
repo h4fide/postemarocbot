@@ -45,9 +45,9 @@ To get a local copy installed and working, follow these steps:
 
 
 
-## 🟪 Deploy on Heroku
+## 🟪 Deployed on Replit
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com)
+[![Replit](https://docs.replit.com/image/logoDark.svg)](https://replit.com)
 
 
 ## 📷 Screenshot
