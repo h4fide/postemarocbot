@@ -1,13 +1,21 @@
 import os
-try:
-    import telebot
-    from telebot import types
-except ImportError:
-    os.system("pip install pyTelegramBotAPI ")
-from api import Tracker
+import sys
+path = os.path.dirname(os.path.abspath(__file__)).replace('src', 'helper')
+sys.path.append(path)
+import telebot
+import configparser
 import database as db
+from api import Tracker
+from telebot import types
 
-TOKEN = ''
+parser = configparser.ConfigParser()
+parser.read('config.ini')
+
+TOKEN = parser.get('config', 'token')
+if TOKEN.startswith('0123456789:ABCD'):
+    print("Please set your token in config.ini")
+    exit()
+    
 bot = telebot.TeleBot(TOKEN)
 
 
@@ -135,4 +143,5 @@ def tracking(code):
         bot.send_message(code.chat.id,"Something went wrong please try again ")
 
 
-bot.infinity_polling()
+if __name__ == '__main__':
+    bot.infinity_polling()
