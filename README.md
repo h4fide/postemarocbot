@@ -3,6 +3,8 @@
   <h1>Poste Maroc Telegram Bot</h1>
   A Telegram bot can help you to track your poste maroc delivery status  <a href="https://t.me/postemarocbot">@postemarocbot</a> to use.
 </div> 
+</br>
+
 ## :arrow_down: Installation
 To get a local copy installed and working, follow these steps:
 
@@ -17,7 +19,6 @@ To get a local copy installed and working, follow these steps:
 
     ```sh
     cd postemarocbot
-    ```
     ```
 
 ### 📦 Install dependencies
