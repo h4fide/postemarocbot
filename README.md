@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/h4fide/postemarocbot/main/src/icon.jpg" width="190" style="border-radius: 50%;">
+  <img src="https://raw.githubusercontent.com/h4fide/postemarocbot/main/src/icon.jpg" width="190" style="border-radius:20px;width:190;">
   <h1>Poste Maroc Telegram Bot</h1>
   A Telegram bot can help you to track your poste maroc delivery status  <a href="https://t.me/postemarocbot">@postemarocbot</a> to use.
 </div>
