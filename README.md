@@ -45,12 +45,12 @@ To get a local copy installed and working, follow these steps:
 
 
 
-## 🟪 Deployed on Replit
-
-[![Replit](https://docs.replit.com/image/logoDark.svg)](https://replit.com)
-
 
 ## 📷 Screenshot
 
 <img src="https://raw.githubusercontent.com/h4fide/postemarocbot/main/src/screen.png" alt="Screenshot" width="305" height="700">
+
+## Deployed on Replit
+
+[![Replit](https://docs.replit.com/image/logoDark.svg)](https://replit.com)
 
