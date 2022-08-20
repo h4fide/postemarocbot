@@ -9,9 +9,9 @@ To get a local copy installed and working, follow these steps:
  - Clone this repository
 
     ```console
-    git clone https://github.com/postemarocbot/postemarocbot.git
+    git clone https://github.com/h4fide/postemarocbot.git
     ```
-    ```
+
     
  - Enter the project folder
 
