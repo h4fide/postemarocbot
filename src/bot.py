@@ -22,7 +22,6 @@ if TOKEN.startswith('0123456789:ABCD'):
     
 bot = telebot.TeleBot(TOKEN)
 
-
 #creat table if not exists 
 db.createtable()
 
@@ -40,7 +39,6 @@ def notifyme(message):
     bot.register_next_step_handler(message, notifycode)
 
 def notifycode(code):
-    print(code.text)
     global tcode
     tcode = code
     lenth = int(len(code.text))
