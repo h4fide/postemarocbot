@@ -1,6 +1,5 @@
 import os
 import sys
-import telebot
 import datetime
 import configparser
 from time import sleep
@@ -8,6 +7,12 @@ path = os.path.dirname(os.path.abspath(__file__)).replace('src', 'helper')
 sys.path.append(path)
 import database as db
 from checker import checker
+
+try:
+    import telebot
+    from telebot import types
+except ImportError:
+    os.system('pip install pyTelegramBotAPI')
 
 
 parser = configparser.ConfigParser()

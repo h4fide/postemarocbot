@@ -2,11 +2,15 @@ import os
 import sys
 path = os.path.dirname(os.path.abspath(__file__)).replace('src', 'helper')
 sys.path.append(path)
-import telebot
 import configparser
 import database as db
 from api import Tracker
-from telebot import types
+
+try:
+    import telebot
+    from telebot import types
+except ImportError:
+    os.system('pip install pyTelegramBotAPI')
 
 parser = configparser.ConfigParser()
 parser.read('config.ini')
