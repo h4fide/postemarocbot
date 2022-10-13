@@ -21,7 +21,7 @@ parser.read('config.ini')
 TOKEN = parser.get('config', 'token')
 if TOKEN.startswith('0123456789:ABCD'):
     print("Please set your token in config.ini")
-    exit()
+    TOKEN = os.environ['TOKEN']
 bot = telebot.TeleBot(TOKEN)
 
 def patrol(repeating: int = 2):
